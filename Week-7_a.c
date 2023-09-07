@@ -60,8 +60,7 @@ int main() {
             case 2:
                 element = pop(stack, &top);
                 if (element != -1) {
-                    printf("Popped element: %d\n", element); // Display the popped element
-                    // You can perform additional operations with 'element' here
+                    printf("Popped element: %d\n", element); 
                 } else {
                     printf("Stack is empty. Unable to pop.\n");
                 }
